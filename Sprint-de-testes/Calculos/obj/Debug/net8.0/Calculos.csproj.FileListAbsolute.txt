@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\bin\Debug\net8.0\Calculos.exe
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\bin\Debug\net8.0\Calculos.deps.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\bin\Debug\net8.0\Calculos.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\bin\Debug\net8.0\Calculos.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\bin\Debug\net8.0\Calculos.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.sourcelink.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\refint\Calculos.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\Calculos.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Calculos\obj\Debug\net8.0\ref\Calculos.dll
