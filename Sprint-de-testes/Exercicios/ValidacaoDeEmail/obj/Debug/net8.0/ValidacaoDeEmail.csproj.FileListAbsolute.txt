@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\bin\Debug\net8.0\ValidacaoDeEmail.exe
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\bin\Debug\net8.0\ValidacaoDeEmail.deps.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\bin\Debug\net8.0\ValidacaoDeEmail.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\bin\Debug\net8.0\ValidacaoDeEmail.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\bin\Debug\net8.0\ValidacaoDeEmail.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.sourcelink.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\refint\ValidacaoDeEmail.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ValidacaoDeEmail.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ValidacaoDeEmail\obj\Debug\net8.0\ref\ValidacaoDeEmail.dll

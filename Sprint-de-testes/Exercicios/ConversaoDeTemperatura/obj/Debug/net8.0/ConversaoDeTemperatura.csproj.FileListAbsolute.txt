@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\bin\Debug\net8.0\ConversaoDeTemperatura.exe
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\bin\Debug\net8.0\ConversaoDeTemperatura.deps.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\bin\Debug\net8.0\ConversaoDeTemperatura.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\bin\Debug\net8.0\ConversaoDeTemperatura.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\bin\Debug\net8.0\ConversaoDeTemperatura.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.sourcelink.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\refint\ConversaoDeTemperatura.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ConversaoDeTemperatura.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ConversaoDeTemperatura\obj\Debug\net8.0\ref\ConversaoDeTemperatura.dll

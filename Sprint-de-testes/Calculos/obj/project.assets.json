@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Calculos\\Calculos.csproj",
+      "projectUniqueName": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Sprint-de-testes\\Calculos\\Calculos.csproj",
       "projectName": "Calculos",
-      "projectPath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Calculos\\Calculos.csproj",
+      "projectPath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Sprint-de-testes\\Calculos\\Calculos.csproj",
       "packagesPath": "C:\\Users\\48114302801\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Calculos\\obj\\",
+      "outputPath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Sprint-de-testes\\Calculos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\48114302801\\AppData\\Roaming\\NuGet\\NuGet.Config",

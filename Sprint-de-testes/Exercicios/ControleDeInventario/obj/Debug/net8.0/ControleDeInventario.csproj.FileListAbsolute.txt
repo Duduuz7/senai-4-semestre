@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\bin\Debug\net8.0\ControleDeInventario.exe
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\bin\Debug\net8.0\ControleDeInventario.deps.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\bin\Debug\net8.0\ControleDeInventario.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\bin\Debug\net8.0\ControleDeInventario.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\bin\Debug\net8.0\ControleDeInventario.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.sourcelink.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\refint\ControleDeInventario.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ControleDeInventario.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\Exercicios\ControleDeInventario\obj\Debug\net8.0\ref\ControleDeInventario.dll

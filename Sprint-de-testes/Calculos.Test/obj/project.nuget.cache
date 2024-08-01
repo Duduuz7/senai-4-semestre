@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XUAPPNi0EFcoALU1KuoprqNVjG1oh/9NixgPeCaeB/SS/NkVd8af46CLuArdJY3VXSZZCuM0U84Zm2gg8q/NZQ==",
+  "dgSpecHash": "zo2i9Lgey79ZJC8xtZCxbFBinVl7tqqYyyMaIJC+ds5gv0CQKdb8PYMhdtaH5xrGMMVbJThThkqBalpgpG1O/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Calculos.Test\\Calculos.Test.csproj",
+  "projectFilePath": "C:\\Users\\48114302801\\Desktop\\senai-4-semestre\\Sprint-de-testes\\Calculos.Test\\Calculos.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48114302801\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\48114302801\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

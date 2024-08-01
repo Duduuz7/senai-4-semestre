@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Calculos.Test
 {
-    public class CalculoUnitTest
+    public class CalculoUnitTest 
+
     {
         //notation que identifica um método como um método de teste
         [Fact]
@@ -15,7 +16,7 @@ namespace Calculos.Test
             var n1 = 3.14;
             var n2 = 5.26;
             var valorEsperado = 8.40;
-
+    
             var soma = Calculo.Somar(n1, n2);
 
             //Identifica se os valores sao iguais
