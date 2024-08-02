@@ -33,10 +33,5 @@ namespace ControleDeInventario
             return produtos;
 
         }
-
-        //public static int ObterQuantidade(string nome)
-        //{
-
-        //}
     }
 }
