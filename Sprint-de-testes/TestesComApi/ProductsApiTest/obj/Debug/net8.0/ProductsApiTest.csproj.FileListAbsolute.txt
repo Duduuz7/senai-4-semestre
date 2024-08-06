@@ -141,3 +141,5 @@ C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\Prod
 C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\ProductsApiTest\obj\Debug\net8.0\ProductsApiTest.pdb
 C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\ProductsApiTest\obj\Debug\net8.0\ProductsApiTest.genruntimeconfig.cache
 C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\ProductsApiTest\obj\Debug\net8.0\ref\ProductsApiTest.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\ProductsApiTest\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-testes\TestesComApi\ProductsApiTest\bin\Debug\net8.0\Moq.dll

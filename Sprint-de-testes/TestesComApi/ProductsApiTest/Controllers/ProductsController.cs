@@ -13,9 +13,9 @@ namespace ProductsApiTest.Controllers
     {
         private IProductsRepository _productsRepository {  get; set; }
 
-        public ProductsController()
+        public ProductsController(IProductsRepository p)
         {
-            _productsRepository = new ProductsRepository();
+            _productsRepository = p;
         }
 
         [HttpGet]
