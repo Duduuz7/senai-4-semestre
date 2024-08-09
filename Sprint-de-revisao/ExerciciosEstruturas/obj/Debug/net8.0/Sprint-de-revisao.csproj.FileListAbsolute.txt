@@ -1,0 +1,15 @@
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.AssemblyInfoInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.AssemblyInfo.cs
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.csproj.CoreCompileInputs.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.sourcelink.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\bin\Debug\net8.0\Sprint-de-revisao.exe
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\bin\Debug\net8.0\Sprint-de-revisao.deps.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\bin\Debug\net8.0\Sprint-de-revisao.runtimeconfig.json
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\bin\Debug\net8.0\Sprint-de-revisao.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\bin\Debug\net8.0\Sprint-de-revisao.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\refint\Sprint-de-revisao.dll
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.pdb
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\Sprint-de-revisao.genruntimeconfig.cache
+C:\Users\48114302801\Desktop\senai-4-semestre\Sprint-de-revisao\obj\Debug\net8.0\ref\Sprint-de-revisao.dll
