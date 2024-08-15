@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(to top right, #1E52B4, #002777);
+    height: 100px;
+    display: flex;
+}
+
+.logo {
+    height: 48px;
+    width: 200px;
+    
+    /* border: 1px solid white; */
+}
