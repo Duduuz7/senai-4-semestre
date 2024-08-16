@@ -1,24 +1,394 @@
-* {
-    margin: 0;
+/* Fontes */
+@font-face{
+    font-family: "Lato Regular";
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Lato Light";
+    src: url(./assets/fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face{
+    font-family: "Lato Bold";
+    src: url(./assets/fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Lato Black";
+    src: url(./assets/fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face{
+    font-family: "Inter Medium";
+    src: url(./assets/fonts/Inter/static/Inter_24pt-Medium.ttf);
+}
+
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-.layout-grid {
-    width: 90%;
-    height: 100%;
+.container{
+    width: 85%;
     margin: 0 auto;
 }
 
-header {
-    background: linear-gradient(to top right, #1E52B4, #002777);
-    height: 100px;
-    display: flex;
+.background-gradient{
+    background: linear-gradient(to right, #1E52B4, #002777);
 }
 
-.logo {
-    height: 48px;
-    width: 200px;
-    
-    /* border: 1px solid white; */
+
+
+/*Header*/
+
+
+header{
+    width: 100%;
+    padding: 20px 0;
+}
+
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo branca */
+
+header .header-logo{
+    height: 23px;
+    width: auto;
+}
+
+/* Navbar */
+
+
+header .header-flex .navbar-flex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header .header-flex .navbar-flex a{
+    text-decoration: none;
+    color: white;
+    font-family: "Lato Regular";
+    font-size: 14px;
+}
+
+header .header-flex .navbar-flex a:hover{
+    color: #FFDF00  ;
+}
+
+header .header-flex .navbar-flex a:last-of-type{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 35px;
+}
+
+header .header-flex .navbar-flex a:last-of-type:hover{
+    background-color: #FFDF00;
+    color: #002777;
+}
+
+
+/*Main*/
+
+/* Banner */
+
+.banner{
+    background: linear-gradient(to right, #1E52B4, #002777);
+    padding: 33px 0;
+    position: relative;
+}
+
+.banner-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-image{
+    width: 380px;
+    height: auto;
+}
+
+.banner-description{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+
+.banner-description-title{
+    font-family: "Lato Bold";
+    font-size: 28px;
+}
+
+.banner-description-text{
+    font-size: 18px;
+    font-family: "Lato Light";
+    line-height: 27px;
+}
+
+
+/* Formulário de procurar hotel */
+
+
+.search-form{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    left: 20%;
+    bottom: -40px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px 32px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.input-search-form-box{
+    padding: 18px 54px 18px 46px;
+    border-right: 2px dashed #4E4B59;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-search-form-box:first-of-type{
+    padding: 0;
+}
+
+
+.input-form-label{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.input-form-label-image{
+    width: 15px;
+}
+
+.input-form-label-text{
+    font-family: "Lato Regular";
+    font-size: 16px;
+    color: #5F5C6B;
+}
+
+
+.search-form input[type="text"]{
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 100%;
+    color: #4E4B59;
+    font-family: "Lato Regular";
+    font-size: 16px;
+}
+
+.search-form input[type="text"]::placeholder{
+    color: #5F5C6B;
+}
+
+
+.search-form input[type="date"]{
+    height: 10px;
+    width: 10px;
+    outline: none;
+    border: none;
+}
+
+
+.button-search{
+    margin-left: 46px;
+    width: auto;
+    border-radius: 8px;
+    border: 2px solid #FAFAFA;
+    background-color: #009C3B;
+    color: white;
+    font-family: "Lato Regular";
+    font-size: 15px;
+    padding: 14px 33px;
+    cursor: pointer;
+}
+
+
+/* Section Lugares */
+
+.grid-places {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 25px;
+    padding: 75px;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    width: 260px;
+    height: 173px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.description-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 260px; 
+    margin-bottom: 10px;
+}
+
+.description-left {
+    color: #000;
+    font-family: "Lato Bold";
+    font-size: 17px;
+}
+
+.description-right {
+    color: #FFDF00;
+    font-family: "Lato Bold";
+    font-size: 17px;
+}
+
+.box-paragraph {
+    max-width: 260px; 
+    margin: 0; 
+    text-align: left; 
+    font-family: "Lato Regular";
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* Check Section */
+
+.check{
+    padding: 10px 0;
+}
+
+.check-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-image{
+    height: 300px;
+    width: auto;
+}
+
+.check-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 38%;
+    gap: 30px;
+}
+
+.check-description-title{
+    color: #2E2636;
+    font-family: "Lato Black";
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.check-description-text{
+    color: #2E2636;
+    font-family: "Lato Regular";
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.check-description-text-green{
+    color: #019438;
+}
+
+.check-description-text-yellow{
+    color: #ffb300;
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section{
+    width: 100%;
+}
+
+/* Footer 1 */
+
+.footer1{
+    padding: 33px 0;
+    background: linear-gradient(to right, #009C3B, #009538);
+    background-image: url(./assets/footer1-background.png);
+    background-size: cover;
+}
+
+.footer1 p{
+    color: white;
+}
+
+.footer1-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer1-description-title{
+    font-size: 24px;
+    font-family: "Inter Medium";
+}
+
+.footer1-description-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer1-description-contact-text{
+    font-size: 16px;
+    font-family: "Lato Light";
+}
+
+/* Footer 2 */
+
+.footer2{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFDF00;
+}
+
+.footer2 img{
+    height: 20px;
+    width: auto;
 }

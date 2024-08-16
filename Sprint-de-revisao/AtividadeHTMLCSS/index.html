@@ -1,35 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hospedagens.com</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- ------ Header ------ -->
 
-        <div class="layout-grid">
-            <img class="logo" src="./assets/logo-branca.png" alt="">
+    <header class="background-gradient">
+        
+        <div class="container header-flex">
 
-            <nav>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <img class="header-logo" src="./assets/logo-branca.png" alt="Logotipo Hospedagens.com branco" />
+
+            <nav class="navbar-flex">
+
+                <a href="">Hotéis</a>
+                <a href="">Contato</a>
+                <a href="">Entrar</a>
+                <a href="">Cadastrar-se</a>
+
             </nav>
 
         </div>
 
     </header>
 
-    <main>
+    <main> 
+
+        <!-- ------ Banner ------ -->
+
+        <section class="banner">
+
+            <div class="container banner-flex">
+
+                <article class="banner-description">
+
+                    <h1 class="banner-description-title">As melhores hospedagens do Brasil</h1>
+                    <p class="banner-description-text">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal, e realizar a viagem dos seus sonhos.</p>
+
+                </article>
+    
+                <img class="banner-image" src="./assets/mapa-brasil.png" alt="Mapa do Brasil">
+
+            </div>
+
+            <!-- ------ Form Procurar Hotel Flutuanete ------ -->
+
+            <form class="search-form">
+
+                <div class="input-search-form-box">
+
+                    <img class="input-form-label-image" src="./assets/icons/local-icon.png" alt="Ícone localização ">
+                    <input class="input-form" name="place-search" type="text" placeholder="Qual o local desejado?">
+                    
+                </div>
+
+                <div class="input-search-form-box">
+
+                    <label for="check-in" class="input-form-label">
+
+                        <img class="input-form-label-image" src="./assets/icons/checkin-icon.png" alt="Ícone calendário">
+                        <p class="input-form-label-text">Data check in</p>
+
+                    </label>
+
+                </div>
+
+                <div class="input-search-form-box">
+                    
+                    <label for="check-out" class="input-form-label">
+
+                        <img class="input-form-label-image" src="./assets/icons/checkout-icon.png" alt="Ícone calendário out">
+                        <p class="input-form-label-text">Data check out</p>
+
+                    </label>
+
+                </div>
+
+                <button class="button-search" type="submit">Procurar hotel</button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ------ Section Box Lugares ------ -->
+
+        
+        <section class="grid-places">
+
+            <div class="box">
+
+                <img src="./assets/angradoreis.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Angra dos Reis</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+
+                <p class="box-paragraph">Desfrute de um paraíso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/arraial.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Arraial do Cabo</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+                
+                <p class="box-paragraph">Conecte-se com a natureza em Arraial do Cabo! Nossa pousada está localizada próximo às praias.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/trezetilias.jpg" alt="Imagem representando Lugar">
+                
+                <div class="description-row">
+
+                    <span class="description-left">Treze Tílias</span>
+                    <span class="description-right">SC</span>
+                    
+                </div>
+
+                <p class="box-paragraph">Viva a experiência de um vilarejo europeu no Brasil! Nossa pousada em Treze Tílias é perfeita.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/ipanema.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Ipanema</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+
+                <p class="box-paragraph">Explore a rica cultura e história de Ipanema! Nossa pousada é o ponto de partida ideal para conhecer.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/angradoreis.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Angra dos Reis</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+
+                <p class="box-paragraph">Desfrute de um paraíso tropical em nossa pousada! Relaxe em nossas piscinas com vista para o mar.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/arraial.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Arraial do Cabo</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+
+                <p class="box-paragraph">Conecte-se com a natureza em Arraial do Cabo! Nossa pousada está localizada próximo às praias.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/trezetilias.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+
+                    <span class="description-left">Treze Tílias</span>
+                    <span class="description-right">SC</span>
+                    
+                </div>
+
+                <p class="box-paragraph">Viva a experiência de um vilarejo europeu no Brasil! Nossa pousada em Treze Tílias é perfeita.</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="./assets/ipanema.jpg" alt="Imagem representando Lugar">
+
+                <div class="description-row">
+                    
+                    <span class="description-left">Ipanema</span>
+                    <span class="description-right">RJ</span>
+
+                </div>
+
+                <p class="box-paragraph">Explore a rica cultura e história de Ipanema! Nossa pousada é o ponto de partida ideal para conhecer.</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ------ Section checar promoção ------ -->
+
+
+        <section class="check">
+
+            <section class="container check-flex">
+
+                <article class="check-description">
+
+                    <h2 class="check-description-title">Venha conferir os melhores hoteis com as melhores <span class="check-description-text-green">promoções</span> do país.</h2>
+
+                    <p class="check-description-text"><span class="check-description-text-green">Não perca tempo</span> e venha conferir o que há de <span class="check-description-text-yellow">melhor</span> na hotelagem brasileira</p>
+
+                </article>
+
+                <img class="check-image" src="./assets/travel.png" alt="Imagem ilustrativa mostrando coisas relacionadas a viagem, como aviões, malas, roupsa, mapas e etc.">
+
+            </section>
+
+        </section>
 
     </main>
 
+
+    <!-- ------ Footer1 Verde ------ -->
+
+
     <footer>
+
+        <section class="footer1">
+
+            <article class="footer1-description">
+
+                <p class="footer1-description-title">Fale com um de nossos acessores</p>
+                
+                <div class="footer1-description-contact">
+
+                    <p class="footer1-description-contact-text">hospedagens@contato.com.br</p>
+                    <p class="footer1-description-contact-text">(11) 0800-707-0707</p>
+
+                </div>
+
+            </article>
+            
+        </section>
+
+        <!-- ------ Footer2 Amarelo ------ -->
+
+        <section class="footer2">
+
+            <img src="./assets/logo-preta.png" alt="Logotipo da plataforma Hospedagens.com em cor preta">
+
+        </section>
 
     </footer>
 
