@@ -94,7 +94,7 @@ header .header-flex .navbar-flex a:last-of-type:hover{
     color: #002777;
 }
 
-.menu {
+#menu, label {
     display: none;
 }
 
@@ -400,7 +400,7 @@ footer section{
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
     footer .footer1-description-title {
         font-size: 20px;
     }
@@ -552,12 +552,50 @@ footer section{
         display: none;
     }
 
+    header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: none;
+        transition: .5s;
+        transform: translateX(-100vw);
+    }
+
     .header-logo {
         /* margin-left: 25%; */
     }
 
-    .menu {
+    header label {
         display: flex;
+    }
+
+    header label img {
+        width: 40px;
+        height: 40px;
+    }   
+
+    #menu:checked~header>nav {
+        position: absolute;
+        top: 0;
+        transform: translateX(-10vw);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 200px;
+        height: 320px;
+        background: linear-gradient(to top right, #ffffff50, #002777);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+        transition: .5s;
+    }
+
+    header nav {
+        display: none;
+        transition: .5s;
+        transform: translateX(-100vw);
     }
  
 }
