@@ -80,7 +80,8 @@ header .header-flex .navbar-flex a{
 }
 
 header .header-flex .navbar-flex a:hover{
-    color: #FFDF00  ;
+    transform: scale(1.06);
+    /* text-decoration: ; */
 }
 
 header .header-flex .navbar-flex a:last-of-type{
@@ -90,7 +91,7 @@ header .header-flex .navbar-flex a:last-of-type{
 }
 
 header .header-flex .navbar-flex a:last-of-type:hover{
-    background-color: #FFDF00;
+    background-color: white;
     color: #002777;
 }
 
@@ -577,7 +578,7 @@ footer section{
         height: 40px;
     }   
 
-    #menu:checked~header>nav {
+    #menu:checked~div>nav {
         position: absolute;
         top: 0;
         transform: translateX(-10vw);
