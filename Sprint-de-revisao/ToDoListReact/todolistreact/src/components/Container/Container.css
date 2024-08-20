@@ -1,0 +1,14 @@
+
+.container {
+    background-color: #1E123B;
+    width: 744px;
+    height: 495px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen {
+    
+}

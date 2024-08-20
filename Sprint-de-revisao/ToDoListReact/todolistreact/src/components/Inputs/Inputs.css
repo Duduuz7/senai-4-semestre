@@ -1,0 +1,18 @@
+.main-input {
+    background-color: transparent;
+    text-align: right;
+    color: #FCFCFC;
+    border: none;
+    outline: none;
+}
+
+.container-input {
+    display: flex;
+    border: 1.5px solid #FCFCFC;
+    border-radius: 8px;
+    width: 210px;
+    height: 40px;
+    margin-top: 30px;
+    padding-right: 0px;
+    gap: 0px;
+}
