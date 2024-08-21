@@ -1,0 +1,34 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #1E123B;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 35%;
+    margin-bottom: 110px;
+  }
+  
+    .modal-input {
+    width: 75%;
+    height: 177px;
+    padding-left: 15px;
+    padding-bottom: 125px;
+    font-size: 17px;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border: 1px solid #fcfcfc;
+    color: #FCFCFC;
+    border-radius: 4px;
+  }
+  

@@ -1,6 +1,7 @@
 .main-input {
     background-color: transparent;
     text-align: right;
+    padding-left: 92px;
     color: #FCFCFC;
     border: none;
     outline: none;
@@ -10,9 +11,11 @@
     display: flex;
     border: 1.5px solid #FCFCFC;
     border-radius: 8px;
-    width: 210px;
+    width: 42%;
     height: 40px;
     margin-top: 30px;
     padding-right: 0px;
     gap: 0px;
 }
+
+

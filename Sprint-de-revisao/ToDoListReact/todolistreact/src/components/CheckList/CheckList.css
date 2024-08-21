@@ -1,0 +1,41 @@
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    border-radius: 8px;
+    width: 650px;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .container-button {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 15px;
+  }
+
+  .container-input-desc {
+    display: flex;
+    gap: 12px;
+    font-family: "Open Sans";
+    margin-left: 15px;
+  }
+
+  .description-task {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #25282C;
+  }
+
+
