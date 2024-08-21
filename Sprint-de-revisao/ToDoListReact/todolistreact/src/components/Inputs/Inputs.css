@@ -7,6 +7,10 @@
     outline: none;
 }
 
+.main-input::placeholder{
+    color: #FCFCFC;
+}
+
 .container-input {
     display: flex;
     border: 1.5px solid #FCFCFC;
@@ -16,6 +20,6 @@
     margin-top: 30px;
     padding-right: 0px;
     gap: 0px;
+    margin-bottom: 40px;
 }
-
 

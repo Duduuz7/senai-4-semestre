@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+
 
 * {
   margin: 0;

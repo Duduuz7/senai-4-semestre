@@ -7,8 +7,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
 }
 
-@media screen {
+
+  
+  .container::-webkit-scrollbar {
+    width: 10px; 
+    border-radius: 8px;
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: #6C45CE; 
+    border: 1.5px solid #1E123B;
+    border-radius: 3.5px;
+
+  }
+  
+  .container::-webkit-scrollbar-thumb {
+    background: #271948; 
+    border-radius: 10px; 
     
+  }
+
+@media screen and (max-width: 900px) {
+    .container {width: 300px;}
 }

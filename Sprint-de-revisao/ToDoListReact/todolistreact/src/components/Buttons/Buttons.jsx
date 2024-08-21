@@ -10,15 +10,15 @@ export function NewTaskButton({ onClick }) {
     );
 }
 
-export function ConfirmTask({ onClick }) {
+export function ConfirmTask({ onClick, text }) {
     return (
-        <button onClick={onClick} className="confirm-button">Confirmar tarefa</button>
+        <button onClick={onClick} className="confirm-button">{text}</button>
     )
 }
-
+    
 export function DeleteTask({ onClick }) {
     return (
-        <button onClick={onClick} className="delete-button"> <img src={DeleteIcon} /> </button >
+        <button onClick={onClick} className="delete-button"> <img color="white" src={DeleteIcon} /> </button >
     )
 }
 

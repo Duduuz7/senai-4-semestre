@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.task-button:hover {
+    background-color:#fcfcfc;
+    color: #1E123B;
+}
+
 .confirm-button {
     color: #fcfcfc;
     border: 2px solid #fcfcfc;
@@ -28,6 +33,7 @@
     border: 1px solid #1E123B;
     border-radius: 8px;
     background-color: transparent;
+    padding-top: 2px;
 }
 
 .update-button {
@@ -36,4 +42,13 @@
     border: 1px solid #1E123B;
     border-radius: 8px;
     background-color: transparent;
+    padding-top: 3px;
+}
+
+.update-button:hover {
+    background-color: #6C45CE;
+}
+
+.delete-button:hover {
+    background-color: #6C45CE;
 }

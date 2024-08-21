@@ -3,19 +3,16 @@ import './Modal.css';
 import { ModalTitle } from '../Titles/Titles';
 import { ConfirmTask } from '../Buttons/Buttons';
 
-const ModalCheck = ({ onAddTask, closeModal, onUpdateTask }) => {
+const ModalUpdate = ({closeModal, onUpdateTask, index }) => {
+
   const [taskDescription, setTaskDescription] = useState('');
 
-  const handleAddTask = () => {
-    onAddTask(taskDescription);
-    setTaskDescription(''); 
-    closeModal();
-  };
-
   const handleUpdateTask = () => {
-    onUpdateTask(taskDescription);
-    setTaskDescription('');
-    closeModal();
+    if (index !== null) {
+      onUpdateTask(index, taskDescription);
+      setTaskDescription('');
+      closeModal();
+    }
   }
 
   return (
@@ -33,7 +30,7 @@ const ModalCheck = ({ onAddTask, closeModal, onUpdateTask }) => {
           placeholder="Tarefa..." 
         />
 
-        <ConfirmTask text={"Confirmar tarefa"} onClick={handleAddTask}/>
+        <ConfirmTask text={"Atualizar tarefa"} onClick={handleUpdateTask}/>
 
       </div>
 
@@ -41,4 +38,4 @@ const ModalCheck = ({ onAddTask, closeModal, onUpdateTask }) => {
   );
 };
 
-export default ModalCheck;
+export default ModalUpdate;
