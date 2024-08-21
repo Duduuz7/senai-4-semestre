@@ -20,13 +20,13 @@ function HomePage() {
 
   const handleCheckTask = (index) => {
     const newCheckTask = [...tasks]; //Cria um novo array com os itens do array normal para atualizar
-    newCheckTask[index].toDo = !newCheckTask[index].toDo; //seta o todo, que seria o checked do input como true se estiver false e vice e versa
+    newCheckTask[index].toDo = !newCheckTask[index].toDo; //seta o toDo, que seria o checked do input como true se estiver false e vice e versa
     setTasks(newCheckTask);
   };
 
 
   const handleDeleteTask = (index) => {
-    setTasks(tasks.filter((_, i) => i !== index)); //"_" elemento atual, que não é usado, "eu sei que existe um parâmetro aqui (o elemento do array), mas eu não vou usá-lo". O foco aqui está apenas no índice i, que é comparado ao index
+    setTasks(tasks.filter((_, i) => i !== index)); //no lugar do "_" seria o item do array, mas como nesse caso nao vou utilizo-lo, uso o "_" para ignorar esse parâmetro. Utilizo apenas o índice (i) para comparar com o índice do item a ser excluido
   };
 
 
