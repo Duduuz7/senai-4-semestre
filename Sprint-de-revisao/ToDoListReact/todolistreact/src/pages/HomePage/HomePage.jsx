@@ -23,6 +23,7 @@ function HomePage() {
     setTasks([...tasks, { description, toDo: false }]);
   };
 
+  // Atualiza o a fazer (checked)
   const handleCheckTask = (index) => {
     const newCheckTask = [...tasks]; //Cria um novo array com os itens do array normal para atualizar
     newCheckTask[index].toDo = !newCheckTask[index].toDo; //seta o toDo, que seria o checked do input como true se estiver false e vice e versa

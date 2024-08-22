@@ -8,10 +8,12 @@ const ModalUpdate = ({closeModal, onUpdateTask, index }) => {
   const [taskDescription, setTaskDescription] = useState('');
 
   const handleUpdateTask = () => {
-    if (index !== null) {
+    if (index !== null && taskDescription !== '') {
       onUpdateTask(index, taskDescription);
       setTaskDescription('');
       closeModal();
+    }else {
+      alert('Digite uma descrição para sua tarefa !!!');
     }
   }
 

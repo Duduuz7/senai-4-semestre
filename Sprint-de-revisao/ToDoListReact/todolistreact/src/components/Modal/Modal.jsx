@@ -3,19 +3,20 @@ import './Modal.css';
 import { ModalTitle } from '../Titles/Titles';
 import { ConfirmTask } from '../Buttons/Buttons';
 
-const ModalCheck = ({ onAddTask, closeModal, onUpdateTask }) => {
+const ModalCheck = ({ onAddTask, closeModal}) => {
   const [taskDescription, setTaskDescription] = useState('');
 
   const handleAddTask = () => {
-    onAddTask(taskDescription);
-    setTaskDescription(''); 
-    closeModal();
-  };
 
-  const handleUpdateTask = () => {
-    onUpdateTask(taskDescription);
-    setTaskDescription('');
-    closeModal();
+    if (taskDescription !== null && taskDescription !== '') {
+      onAddTask(taskDescription);
+      setTaskDescription('');
+      closeModal();
+    }
+    else {
+      	alert('Por favor digite uma descrição para a sua tarefa !!!');
+    }
+
   }
 
   return (
@@ -23,17 +24,17 @@ const ModalCheck = ({ onAddTask, closeModal, onUpdateTask }) => {
 
       <div className="modal-content">
 
-        <ModalTitle/>
+        <ModalTitle />
 
-        <input 
+        <input
           className="modal-input"
           type="text"
-          value={taskDescription} 
-          onChange={(e) => setTaskDescription(e.target.value)} 
-          placeholder="Tarefa..." 
+          value={taskDescription}
+          onChange={(e) => setTaskDescription(e.target.value)}
+          placeholder="Tarefa..."
         />
 
-        <ConfirmTask text={"Confirmar tarefa"} onClick={handleAddTask}/>
+        <ConfirmTask text={"Confirmar tarefa"} onClick={handleAddTask} />
 
       </div>
 
