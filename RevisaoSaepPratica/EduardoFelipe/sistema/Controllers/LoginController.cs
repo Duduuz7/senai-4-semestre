@@ -36,5 +36,13 @@ namespace sistema.Controllers
             return RedirectToAction("Index", "Login");
 
         }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Index", "Login");
+        }
     }
 }
