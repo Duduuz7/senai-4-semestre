@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+
+<form asp-controller="Login" asp-action="Logar" method="post" class="w-50 p-5 mx-auto mt-5 shadow rounded d-flex flex-column align-items-center gap-4">
+
+    <h2>Bem vindo</h2>
+
+
+    <div class="w-100">
+
+        <label class="form-label">Email</label>
+        <input type="email" name="email" class="form-control"/>
+    </div>
+
+
+    <div class="w-100">
+
+        <label class="form-label">Senha</label>
+        <input type="password" name="senha" class="form-control"/>
+    </div>
+
+    <button class="btn btn-primary px-5" type="submit">Entrar</button>
+</form>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p class="text-center mt-5 text-danger">@TempData["Mensagem"]</p>
+}
