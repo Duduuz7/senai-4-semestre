@@ -24,7 +24,7 @@ namespace sistema.Controllers
 
             var professor = _context.Professors.Find(professorId);
 
-            var turmas = _context.Turmas.Where(t => t.ProfessorId == professorId).ToList();
+            var turmas = _context.Turmas.Where(t => t.ProfessorId == professorId).Include(a => a.Atividades);
 
             ViewBag.NomeProfessor = professor!.Nome;
 
@@ -61,6 +61,7 @@ namespace sistema.Controllers
 
                 return RedirectToAction("Index");
             }
+
 
             _context.Turmas.Remove(turma);
 

@@ -8,22 +8,23 @@
 }
 else
 {
-    @* cadastrar turma *@
+    @* cadastrar atividade *@
 
-    <form asp-controller="Atividade" asp-action="CadastrarAtividade">
-        <label>Nome da atividade</label>
-        <input type="hidden" name="turmaId" value="@ViewBag.TurmaId" />
+    <div class="d-flex mx-3 justify-content-between my-5">
+        @* título *@
+        <h4 class="fw-bold">Turma: @ViewBag.NomeTurma</h4>
 
-        <input type="text" name="nomeAtividade" placeholder="Nome" required />
-        <button type="submit">Cadastrar Atividade</button>
-    </form>
+        @* cadastrar turma *@
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#cadastrarAtividade">
+            Cadastrar Atividade
+        </button>
+    </div>
 
 
     @* nome turma  *@
-    <h4>Turma: @ViewBag.NomeTurma</h4>
 
     @* tabela *@
-    <table>
+    <table class="table">
         <thead>
             <tr>
                 <th>Número</th>
@@ -42,4 +43,27 @@ else
             }
         </tbody>
     </table>
+
+    @* Código do corpo modal *@
+    <div class="modal" tabindex="-1" id="cadastrarAtividade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Cadastrar atividade</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <form asp-controller="Atividade" asp-action="CadastrarAtividade">
+                    <div class="modal-body">
+                        <label class="form-label">Nome da atividade</label>
+                        <input type="text" name="nomeAtividade" class="form-control" required />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Confirmar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 }

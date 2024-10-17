@@ -10,7 +10,7 @@ else
 {
     <div class="d-flex mx-3 justify-content-between my-5">
         @* título *@
-        <h3 class="fw-bold">Sua lista de turmas</h3>
+        <h4 class="fw-bold">Sua lista de turmas</h4>
 
         @* cadastrar turma *@
         <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#cadastrarTurma">
@@ -36,14 +36,63 @@ else
                     <td>@turma.Nome</td>
                     <td>
                         <div style="display:flex">
-                            <form asp-controller="Professor" asp-action="ExcluirTurma" onsubmit="return confirm('Você tem certeza que deseja exluir essa turma ?')">
-                                <input type="hidden" name="turmaId" value="@turma.TurmaId" />
-                                <button type="Submit" class="text-danger link-underline-success border-0">Excluir</button>
-                            </form>
+
+                            @{
+                                var name = "excluirTurma" + turma.TurmaId;
+                            }
+                                    
+                            <div class="modal" tabindex="-1" id="@name">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Excluir turma</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <form asp-controller="Professor" asp-action="ExcluirTurma">
+                                            <p class="modal-body">Confimar exclusão da turma permanentemente?</p>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <input type="hidden" name="turmaId" value="@turma.TurmaId" />
+                                                <button type="submit" class="btn btn-primary">Confirmar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal" tabindex="-1" id="erroExcluir">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Excluir turma</h2>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <form asp-controller="Professor" asp-action="ExcluirTurma">
+                                            <p class="modal-body">
+                                                A turma não pode ser excluída, pois a mesma possuí
+                                                atividades anexadas
+                                            </p>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @if(turma.Atividades.Count == 0)
+                            {
+                                <button type="Submit" class="text-danger bg-white btn-link border-0" data-bs-toggle="modal" data-bs-target="#@name">Excluir</button>
+                            } else
+                            {
+                                <button type="Submit" class="text-danger bg-white btn-link border-0" data-bs-toggle="modal" data-bs-target="#erroExcluir">Excluir</button>
+                            }
 
                             <form asp-controller="Atividade" asp-action="Index" asp-route-turmaId="@turma.TurmaId">
                                 <input type="hidden" name="turmaId" value="@turma.TurmaId" />
-                                <button type="submit" class="text-success success-underline border-0">Visualizar</button>
+                                <button type="submit" class="text-success btn-link text-success bg-white success-underline border-0">Visualizar</button>
                             </form>
                         </div>
                     </td>
@@ -52,10 +101,6 @@ else
         </tbody>
     </table>
 
-    @if (TempData["Mensagem"] != null)
-    {
-        <p style="color:red">@TempData["Mensagem"]</p>
-    }
 
     @* Código do corpo modal *@
     <div class="modal" tabindex="-1" id="cadastrarTurma">
@@ -79,5 +124,7 @@ else
             </div>
         </div>
     </div>
+
+    
 
 }
